@@ -4,9 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PHP Badwords</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <?php echo "hello World" ?>
+    <h1></h1>
+     <?php 
+    $prova = "prova prova";
+    $prova2= "Daniel";
+    echo '<h1 class="mt-3 mx-5">hello World '.$prova." ".$prova2."</h1>" 
+    
+    ?>   
 </body>
 </html>
