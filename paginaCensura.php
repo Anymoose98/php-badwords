@@ -1,6 +1,9 @@
 <?php
+    var_dump($_GET);
     $testo = $_GET['testo'];
     $parola = $_GET["parola"];
+
+    $newTesto = str_replace($parola , "***" , $testo)
 
 ?>
 
@@ -14,8 +17,12 @@
     <title>Pagina Censura</title>
 
 </head>
-<body>
-    <h1> <?php echo $testo." ".$parola ?></h1>
+<body class="m-3">
+    <h3>Testo originale</h3>
+    <p><?php echo $testo ?></p>
+
+    <h3>Testo censurato</h3>
+    <p> <?php echo $newTesto ?></p>
     
 </body>
 </html>
