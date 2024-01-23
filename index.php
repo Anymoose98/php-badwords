@@ -11,17 +11,17 @@
     <h1 class="text-center my-3">Censura Badwords</h1>
     <div class="container">
         <div class="row">
-            <form action="" method="GET" >
+            <form action="paginaCensura.php" method="GET" >
                 <div class="col-12 d-flex">
 
                     <div class="col-6 m-3">
                         <h3 class="text-center my-3">Testo da inserire</h3>
-                        <textarea class="form-control" name="testo" id="testo" cols="30" rows="3" placeholder="inserisci qui il testo" ></textarea>
+                        <textarea class="form-control" name="testo" id="testo" cols="30" rows="3" placeholder="inserisci qui il testo" required ></textarea>
                     </div>
 
                     <div class="col-6 m-3">
                         <h3 class="text-center my-3">Parola da censurare</h3>
-                        <input type="text" name="parola" id="parola" class="form-control" placeholder="parola da censurare">
+                        <input type="text" name="parola" id="parola" class="form-control" placeholder="parola da censurare" required>
                     </div>                    
 
                 </div>
